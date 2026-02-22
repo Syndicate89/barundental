@@ -69,7 +69,7 @@ export default function Header() {
                                     {item.label}
                                 </Link>
                                 {item.children && (
-                                    <div className={`${styles.dropdown} ${item.href === '/clinic' ? styles.megaDropdown : ''}`}>
+                                    <div className={styles.dropdown}>
                                         <div className={styles.dropdownLinks}>
                                             {item.children.map((child) => (
                                                 <Link key={child.href} href={child.href} className={styles.dropdownLink}>
@@ -77,24 +77,6 @@ export default function Header() {
                                                 </Link>
                                             ))}
                                         </div>
-                                        {item.href === '/clinic' && (
-                                            <div className={styles.megaImageColumn}>
-                                                <Link href="/clinic/facility" className={styles.megaImageLink}>
-                                                    <div className={styles.megaImageWrapper}>
-                                                        <Image
-                                                            src="/barundental/images/menu/facility_tour.png"
-                                                            alt="시설 둘러보기"
-                                                            fill
-                                                            className={styles.megaImage}
-                                                        />
-                                                    </div>
-                                                    <div className={styles.megaImageText}>
-                                                        <span className={styles.megaImageTitle}>시설 둘러보기 <span className={styles.megaImageArrow}>&rarr;</span></span>
-                                                        <span className={styles.megaImageDesc}>더 바른 정성 치과의 프리미엄 진료 환경</span>
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )}
                                     </div>
                                 )}
                             </div>
