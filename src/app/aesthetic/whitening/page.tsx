@@ -18,7 +18,7 @@ export default function WhiteningPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/whitening.png" alt="원데이 치아미백" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/whitening.png" alt="원데이 치아미백" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>원데이 전문 미백이란?</h3>

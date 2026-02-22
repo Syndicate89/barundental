@@ -17,7 +17,7 @@ export default function MicroscopePage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/microscope.png" alt="미세현미경 신경치료" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/microscope.png" alt="미세현미경 신경치료" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>미세현미경 신경치료란?</h3>

@@ -18,7 +18,7 @@ export const DOCTOR_INFO = {
     title: '대표원장',
     degree: '치의학 박사',
     specialty: '통합치의학과 전문의',
-    photo: '/images/doctor/doctor-profile.jpg',
+    photo: '/barundental/images/doctor/doctor-profile.jpg',
     quote: '환자의 평생 구강 관리 파트너로서, 과잉 진료 없이 꼭 필요한 진료만을 약속합니다.',
     credentials: [
         '치의학 박사',

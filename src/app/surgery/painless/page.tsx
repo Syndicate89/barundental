@@ -18,7 +18,7 @@ export default function PainlessPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/painless.png" alt="무통 마취 시스템" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/painless.png" alt="무통 마취 시스템" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>무통 마취 시스템이란?</h3>

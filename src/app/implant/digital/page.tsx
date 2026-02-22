@@ -32,7 +32,7 @@ export default function DigitalImplantPage() {
                         viewport={viewportOnce}
                     >
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/digital.png" alt="디지털 임플란트" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/digital.png" alt="디지털 임플란트" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>디지털 가이드 임플란트란?</h3>

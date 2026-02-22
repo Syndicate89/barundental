@@ -18,7 +18,7 @@ export default function LaminatePage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/laminate.png" alt="라미네이트" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/laminate.png" alt="라미네이트" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>라미네이트란?</h3>

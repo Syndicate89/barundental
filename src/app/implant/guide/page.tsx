@@ -50,7 +50,7 @@ export default function ImplantGuidePage() {
                         viewport={viewportOnce}
                     >
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/guide.png" alt="임플란트 가이드" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/guide.png" alt="임플란트 가이드" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>임플란트란?</h3>

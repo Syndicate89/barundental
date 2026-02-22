@@ -19,7 +19,7 @@ import styles from './HeroSlider.module.css';
 const SLIDES = [
     {
         id: 1,
-        image: '/images/hero/hero-1.jpg',
+        image: '/barundental/images/hero/hero-1.jpg',
         labelEn: 'The Barun Dental Clinic',
         title: 'TRUST YOUR\nSMILE',
         titleKo: '자연치아의 가치를\n먼저 생각합니다',
@@ -27,7 +27,7 @@ const SLIDES = [
     },
     {
         id: 2,
-        image: '/images/hero/hero-2.jpg',
+        image: '/barundental/images/hero/hero-2.jpg',
         labelEn: 'Implant Center',
         title: 'PRECISION\nIMPLANT',
         titleKo: '디지털 가이드 기반\n정밀 임플란트',
@@ -35,7 +35,7 @@ const SLIDES = [
     },
     {
         id: 3,
-        image: '/images/hero/hero-3.jpg',
+        image: '/barundental/images/hero/hero-3.jpg',
         labelEn: 'Aesthetic Dentistry',
         title: 'BEAUTIFUL\nHARMONY',
         titleKo: '아름답고 자연스러운\n미소를 되찾다',

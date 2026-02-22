@@ -44,7 +44,7 @@ export default function DoctorPage() {
                         viewport={viewportOnce}
                     >
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper} style={{ aspectRatio: '3/4' }}>
-                            <Image src="/images/doctor-profile.png" alt="대표원장 김지한" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/doctor-profile.png" alt="대표원장 김지한" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>대표원장 {DOCTOR_INFO.name}</h3>

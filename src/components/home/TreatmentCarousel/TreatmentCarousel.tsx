@@ -19,35 +19,35 @@ const TREATMENTS = [
         title: '디지털 가이드 임플란트',
         desc: '3D CT와 디지털 가이드를 활용하여 정밀하게 식립하는 최첨단 임플란트 시술',
         href: '/implant/digital',
-        image: '/images/digital.png'
+        image: '/barundental/images/digital.png'
     },
     {
         category: 'Aesthetic',
         title: '원데이 치아미백',
         desc: '단 1회 방문으로 밝고 환한 미소를 되찾는 전문 미백 시술',
         href: '/aesthetic/whitening',
-        image: '/images/whitening.png'
+        image: '/barundental/images/whitening.png'
     },
     {
         category: 'Preservation',
         title: '미세현미경 신경치료',
         desc: '미세현미경을 활용하여 자연치아를 최대한 보존하는 정밀 신경치료',
         href: '/preservation/microscope',
-        image: '/images/microscope.png'
+        image: '/barundental/images/microscope.png'
     },
     {
         category: 'Surgery',
         title: '무통 사랑니 발치',
         desc: '무통 마취 시스템과 전문 장비로 안전하고 편안한 사랑니 발치',
         href: '/surgery/wisdom',
-        image: '/images/wisdom.png'
+        image: '/barundental/images/wisdom.png'
     },
     {
         category: 'Aesthetic',
         title: '올세라믹 크라운',
         desc: '자연치아와 동일한 색상과 투명도의 올세라믹 보철 치료',
         href: '/aesthetic/ceramic',
-        image: '/images/ceramic.png'
+        image: '/barundental/images/ceramic.png'
     },
 ];
 

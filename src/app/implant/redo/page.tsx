@@ -26,7 +26,7 @@ export default function RedoImplantPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/redo.png" alt="재수술 임플란트" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/redo.png" alt="재수술 임플란트" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>임플란트 재수술이란?</h3>

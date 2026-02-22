@@ -82,7 +82,7 @@ export default function Header() {
                                                 <Link href="/clinic/facility" className={styles.megaImageLink}>
                                                     <div className={styles.megaImageWrapper}>
                                                         <Image
-                                                            src="/images/menu/facility_tour.png"
+                                                            src="/barundental/images/menu/facility_tour.png"
                                                             alt="시설 둘러보기"
                                                             fill
                                                             className={styles.megaImage}

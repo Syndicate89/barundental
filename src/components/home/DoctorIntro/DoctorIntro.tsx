@@ -28,7 +28,7 @@ export default function DoctorIntro() {
                     <motion.div variants={fadeInLeft} className={styles.photoSide}>
                         <div className={styles.photoWrapper}>
                             <div className={styles.photoPlaceholder} style={{ position: 'relative', overflow: 'hidden' }}>
-                                <Image src="/images/doctor-profile.png" alt="대표원장 프로필" fill style={{ objectFit: 'cover', objectPosition: 'top' }} />
+                                <Image src="/barundental/images/doctor-profile.png" alt="대표원장 프로필" fill style={{ objectFit: 'cover', objectPosition: 'top' }} />
                             </div>
                         </div>
                         <div className={styles.photoBadge}>

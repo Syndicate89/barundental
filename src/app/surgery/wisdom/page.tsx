@@ -19,7 +19,7 @@ export default function WisdomPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/wisdom.png" alt="사랑니 발치" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/wisdom.png" alt="사랑니 발치" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>사랑니는 왜 발치해야 하나요?</h3>

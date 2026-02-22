@@ -26,7 +26,7 @@ export default function AdvancedImplantPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/advanced.png" alt="고난도 임플란트" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/advanced.png" alt="고난도 임플란트" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>고난도 임플란트 전문</h3>

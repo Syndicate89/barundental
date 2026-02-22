@@ -18,7 +18,7 @@ export default function CeramicPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/ceramic.png" alt="올세라믹" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/ceramic.png" alt="올세라믹" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>올세라믹 크라운이란?</h3>

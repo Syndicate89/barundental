@@ -50,7 +50,7 @@ export default function StoryPage() {
                         viewport={viewportOnce}
                     >
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/story.png" alt="병원 스토리" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/story.png" alt="병원 스토리" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>환자 중심의 진료 철학</h3>

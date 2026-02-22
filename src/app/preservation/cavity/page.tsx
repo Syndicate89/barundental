@@ -17,7 +17,7 @@ export default function CavityPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/cavity.png" alt="충치치료" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/cavity.png" alt="충치치료" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>충치치료</h3>

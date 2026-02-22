@@ -18,7 +18,7 @@ export default function GumPage() {
                 <div className="container">
                     <motion.div className={styles.twoColumn} variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewportOnce}>
                         <motion.div variants={fadeInLeft} className={styles.imageWrapper}>
-                            <Image src="/images/gum.png" alt="치주치료" fill className={styles.pageImage} />
+                            <Image src="/barundental/images/gum.png" alt="치주치료" fill className={styles.pageImage} />
                         </motion.div>
                         <motion.div variants={fadeInRight} className={styles.textBlock}>
                             <h3>치주질환이란?</h3>
